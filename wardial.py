@@ -48,7 +48,8 @@ def enumerate_ips(start_ip, n):
     ['8.8.8.8', '8.8.8.9', '8.8.8.10', '8.8.8.11', '8.8.8.12', '8.8.8.13', '8.8.8.14', '8.8.8.15', '8.8.8.16', '8.8.8.17']
 
     The following tests ensure that the correct number of ips get returned as a generator, and not a list.
-    Ensuring that the return type is a generator is a proxy for testing for space efficiency of the function.
+    Ensuring that the return type is a generator is a proxy for testing
+    for space efficiency of the function.
 
     >>> type(enumerate_ips('8.8.8.8', 10))
     <class 'generator'>
